@@ -1,0 +1,33 @@
+@import './style.css';
+
+.intro {
+    background-image: url(./images/intertnship_assets/intro_bg.jpg);
+}
+
+.pros__title{
+    margin-bottom: 60px;
+}
+
+.pros__blocks{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.pros__item{
+    width: 25%;
+    outline: 1px solid #D9D9D9;
+    padding: clamp(2.063rem, 1.381rem + 3.41vw, 3.938rem) clamp(1.25rem, 0.909rem + 1.7vw, 2.188rem) clamp(4.063rem, 3.153rem + 4.55vw, 6.563rem);
+}
+.pros__item__img--wrapper{
+    margin-bottom: 30px;
+}
+.pros__item__img--wrapper img{
+    min-width: 60px;
+    min-height: 60px;
+}
+
+@media(max-width:690px){
+    .pros__item {
+        width: 50%;
+    }
+}
